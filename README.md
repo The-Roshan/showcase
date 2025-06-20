@@ -30,8 +30,8 @@ This is a fully functional, attractive project showcase website built with **Nod
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/project-showcase.git
-cd project-showcase
+git clone https://github.com/The-Roshan/showcase.git
+cd showcase
 ```
 
 ### 2. Backend Setup
@@ -136,4 +136,4 @@ Contributions are welcome! To contribute:
 - Inspired by modern portfolio designs for showcasing creative work.
 
 ## Contact
-For questions or feedback, reach out to [Your Name/Email] or open an issue on GitHub.
+For questions or feedback, reach out to [roshanjsr5555@gmail.com] or open an issue on GitHub.
