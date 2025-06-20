@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Showcase | 100+ Projects</title>
+    <meta name="description" content="Portfolio showcasing 100+ projects across web development, mobile apps, UI/UX design, branding and more" />
+    <meta name="author" content="Portfolio" />
+
+    <meta property="og:title" content="Portfolio Showcase | 100+ Projects" />
+    <meta property="og:description" content="Portfolio showcasing 100+ projects across web development, mobile apps, UI/UX design, branding and more" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/public/roshan-uploads/7b66a981-5cf2-474f-8ff5-a3d6da426bc5.png" type="image/png">
+    <link rel="shortcut icon" href="/public/roshan-uploads/7b66a981-5cf2-474f-8ff5-a3d6da426bc5.png" type="image/png">
+    
+    <!-- Remove roshan branding -->
+    <style>
+      /* Hide roshan badge */
+      [class*="roshan-badge"],
+      [id*="roshan-badge"],
+      [class*="roshan"],
+      [class*="roshan-"],
+      [class^="roshan"],
+      [id^="roshan"],
+      .roshan,
+      #roshan {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+        position: absolute !important;
+        left: -9999px !important;
+        width: 1px !important;
+        height: 1px !important;
+        overflow: hidden !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
